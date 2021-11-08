@@ -11,6 +11,6 @@ Potrzebne komponenty:
 - diody LED;
 - buzzer;
 - rezystory 221 0hm.
-[link](https://create.arduino.cc/projecthub)
+### (https://create.arduino.cc/projecthub)
 
 ## Etap 1
