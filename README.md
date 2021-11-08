@@ -7,9 +7,10 @@ Gdy napięcie wyjściowe spadnie poniżej tego poziomu, zapali się zielona diod
 
 Potrzebne komponenty:
 - arduino UNO;
--MQ-2 czujnik dymu;
+- MQ-2 czujnik dymu;
 - diody LED;
--buzzer;
--rezystory 221 0hm.
+- buzzer;
+- rezystory 221 0hm.
+[link](https://create.arduino.cc/projecthub)
 
 ## Etap 1
