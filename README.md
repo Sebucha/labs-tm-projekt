@@ -12,5 +12,5 @@ Potrzebne komponenty:
 - buzzer;
 - rezystory 221 0hm.
 ### (https://create.arduino.cc/projecthub)
-
+ ![img](./img.png)
 ## Etap 1
