@@ -76,5 +76,8 @@ void loop() {
   delay(100);
 }```
 
+
 # Nagranie, które przedsatwia działanie projektu
+
+
 https://www.youtube.com/watch?v=tYh1xYOsysk
