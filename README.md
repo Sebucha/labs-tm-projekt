@@ -14,7 +14,8 @@ Potrzebne komponenty:
 ### (https://create.arduino.cc/projecthub)
  ![img](./Arduino_UNO_pinout_2_numery)
 ## Etap 1
-```int czerwonaDioda = 12;
+```cpp
+int czerwonaDioda = 12;
 int zielonaDioda = 11;     //definicja portów 
 int buzzer = 10;
 int czujnikDymu = A5;
