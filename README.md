@@ -2,12 +2,15 @@
 ________________________
 
 O PROJEKCIE
+
 Projekt dotyczy działania czujnika MQ-9. Naszym zadaniem jest odczytanie z powietrza zawartości stężenia gazów. Jeśli na wyjściu czujnika odczytamy wartość, która przekracza wartość progową powinna się zaświecić dioda czerwona LED i buzzer powinien wydać dźwięk. Natomiast jeśli stężenie nie przekracza wartości progowej powinna się cały czas świecić dioda zielona LED.
 
 Czym jest czujnik MQ-9?
+
 Jest to czujnik, który umożliwia nam wykrycie w powietrzu stężenia tlenku węgla, bądź gazów łatwopalnych.
 
 Potrzebne komponenty:
+
 - arduino UNO;
 -płytka stykowa;
 - MQ-9 czujnik dymu(gazów);
@@ -44,7 +47,8 @@ void loop() {
 
   Serial.print("Pin A0: ");
   Serial.println(sensor); //wyświetlenie na monitorze  portu szeregowego dla dodatkowego zobrazowania
-  //stawiamy warunek, jeśli wartość gazów w powietrzu jest niższa niż nasza wartość podana na początku(sensorThres) to zaświeci się dioda zielona i buzzer nie wyda dźwięku,
+  //stawiamy warunek, jeśli wartość gazów w powietrzu jest niższa niż nasza wartość podana na początku(wartoscProgow) 
+  //to zaświeci się dioda zielona i buzzer nie wyda dźwięku,
   //natomiast jeśli przekroczy zaświeci się didoa czerwona i buzzer wyda dźwięk
   if (sensor > wartoscProgowa)
   {
