@@ -16,6 +16,8 @@ Potrzebne komponenty:
 - Buzzer;
 -kable;
 - rezystory 221 Ohm.
+
+
 Sposób działania projektu:
 Napięcie, które jest wysyłane przez czujnik jest proporcjonalne do stężenia gazów -  odpowiednio się zmienia. 
 Innymi słowy im większe stężenie gazów, bądź tlenku węgla, tym większe będzie napięcie wyjściowe, a jeśli będzie niższe stężenie gazów, bądź tlenku węgla, tym niższe będzie napięcie wyjściowe.
