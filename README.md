@@ -1,15 +1,15 @@
 # Wykrywacz dymu
 ________________________
 
-# O PROJEKCIE
+### O PROJEKCIE
 
 Projekt dotyczy działania czujnika MQ-9. Naszym zadaniem jest odczytanie z powietrza zawartości stężenia gazów. Jeśli na wyjściu czujnika odczytamy wartość, która przekracza wartość progową powinna się zaświecić dioda czerwona LED i buzzer powinien wydać dźwięk. Natomiast jeśli stężenie nie przekracza wartości progowej powinna się cały czas świecić dioda zielona LED.
 
-# Czym jest czujnik MQ-9?
+### Czym jest czujnik MQ-9?
 
 Jest to czujnik, który umożliwia nam wykrycie w powietrzu stężenia tlenku węgla, bądź gazów łatwopalnych.
 
-# Potrzebne komponenty:
+### Potrzebne komponenty:
 
 - arduino UNO;
 -płytka stykowa;
@@ -21,16 +21,16 @@ Jest to czujnik, który umożliwia nam wykrycie w powietrzu stężenia tlenku w�
 - rezystory 221 Ohm.
 
 
-# Sposób działania projektu:
+### Sposób działania projektu:
 
 Napięcie, które jest wysyłane przez czujnik jest proporcjonalne do stężenia gazów -  odpowiednio się zmienia. 
 Innymi słowy im większe stężenie gazów, bądź tlenku węgla, tym większe będzie napięcie wyjściowe, a jeśli będzie niższe stężenie gazów, bądź tlenku węgla, tym niższe będzie napięcie wyjściowe.
 
-# (https://create.arduino.cc/projecthub)
+### Ogólny schemat płytki arduino UNO
 
  ![schemat płytki](zdjecia/arduino_schemat.png)
  
-# Etap 1
+### Kod
 
 ```cpp
 int czerwonaDioda = 12;
