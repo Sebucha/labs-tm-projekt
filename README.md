@@ -2,15 +2,23 @@
 ________________________
 
 O PROJEKCIE
-W tym przykładzie odczytasz napięcie wyjścia czujnika, a gdy dym osiągnie określony poziom, wyda dźwięk i zapali się czerwona dioda LED.
-Gdy napięcie wyjściowe spadnie poniżej tego poziomu, zapali się zielona dioda LED.
+Projekt dotyczy działania czujnika MQ-9. Naszym zadaniem jest odczytanie z powietrza zawartości stężenia gazów. Jeśli na wyjściu czujnika odczytamy wartość, która przekracza wartość progową powinna się zaświecić dioda czerwona LED i buzzer powinien wydać dźwięk. Natomiast jeśli stężenie nie przekracza wartości progowej powinna się cały czas świecić dioda zielona LED.
+
+Czym jest czujnik MQ-9?
+Jest to czujnik, który umożliwia nam wykrycie w powietrzu stężenia tlenku węgla, bądź gazów łatwopalnych.
 
 Potrzebne komponenty:
 - arduino UNO;
-- MQ-9 czujnik dymu;
-- diody LED;
-- buzzer;
-- rezystory 221 0hm.
+-płytka stykowa;
+- MQ-9 czujnik dymu(gazów);
+- 5mm LED: Czerwona;
+- 5mm LED: Zielona;
+- Buzzer;
+-kable;
+- rezystory 221 Ohm.
+Sposób działania projektu:
+Napięcie, które jest wysyłane przez czujnik jest proporcjonalne do stężenia gazów -  odpowiednio się zmienia. 
+Innymi słowy im większe stężenie gazów, bądź tlenku węgla, tym większe będzie napięcie wyjściowe, a jeśli będzie niższe stężenie gazów, bądź tlenku węgla, tym niższe będzie napięcie wyjściowe.
 ### (https://create.arduino.cc/projecthub)
  ![img](./Arduino_UNO_pinout_2_numery)
 ## Etap 1
