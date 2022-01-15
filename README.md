@@ -26,12 +26,17 @@ Jest to czujnik, który umożliwia nam wykrycie w powietrzu stężenia tlenku w�
 Napięcie, które jest wysyłane przez czujnik jest proporcjonalne do stężenia gazów -  odpowiednio się zmienia. 
 Innymi słowy im większe stężenie gazów, bądź tlenku węgla, tym większe będzie napięcie wyjściowe, a jeśli będzie niższe stężenie gazów, bądź tlenku węgla, tym niższe będzie napięcie wyjściowe.
 
-### Ogólny schemat płytki arduino UNO
+### Ogólny schemat płytki arduino UNO:
 
  ![schemat płytki](zdjecia/arduino_schemat.png)
  
- ### Ogólny schemat projektu
+ ### Ogólny schemat projektu:
+ 
  ![schemat projektu](zdjecia/obrazek1.png)
+ 
+### Zdjęcie wykonane projektu:
+![zdjecie_projektu](zdjecia/271383607_240678204879126_2591958903136080348_n.jpg)
+ 
 ### Kod
 
 ```cpp
