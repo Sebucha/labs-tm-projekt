@@ -30,6 +30,7 @@ Innymi słowy im większe stężenie gazów, bądź tlenku węgla, tym większe 
 
  ![schemat płytki](zdjecia/arduino_schemat.png)
  
+ ### Ogólny schemat projektu
  ![schemat projektu](zdjecia/obrazek1.png)
 ### Kod
 
