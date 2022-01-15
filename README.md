@@ -74,8 +74,9 @@ void loop() {
     noTone(buzzer);
   }
   delay(100);
-}```
-
+}
+```
+________________________
 
 # Nagranie, które przedsatwia działanie projektu
 
